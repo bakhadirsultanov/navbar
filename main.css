@@ -23,7 +23,7 @@ nav {
 }
 
 ul {
-  width: 900px;
+  width: 950px;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
@@ -34,4 +34,17 @@ a {
     font-size: 1.5rem;
     color: rgb(4, 57, 4);
     font-weight: bold;
+    text-shadow: 0 2px 4px green;
+} 
+
+li {
+    transition-duration: 1s;
+}
+
+i {
+    text-shadow: none;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
