@@ -30,21 +30,43 @@ ul {
 }
 
 a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: rgb(4, 57, 4);
-    font-weight: bold;
-    text-shadow: 0 2px 4px green;
-} 
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(4, 57, 4);
+  font-weight: bold;
+  text-shadow: 0 2px 4px green;
+}
 
 li {
-    transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 i {
-    text-shadow: none;
+  text-shadow: none;
 }
 
 li:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media (min-width: 0) and (max-width: 474.9px) {
+  header {
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  a {
+    font-size: 0.6rem;
+  }
 }
